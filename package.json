@@ -1,0 +1,1 @@
+{\n  "name": "associate-journey-map",\n  "private": true,\n  "workspaces": [\n    "customer-support",\n    "customer-support-qt"\n  ],\n  "scripts": {\n    "build": "lerna run build",\n    "test": "lerna run test"\n  },\n  "devDependencies": {\n    "lerna": "^7.0.0"\n  }\n}
