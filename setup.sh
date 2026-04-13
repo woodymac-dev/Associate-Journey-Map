@@ -1,0 +1,1 @@
+#!/bin/bash\n\n# Setup script to clone the v0-associate-journey-customer-support repository\n\nREPO_URL=https://github.com/yourusername/v0-associate-journey-customer-support.git\n\nif [ ! -d "v0-associate-journey-customer-support" ]; then\n    echo "Cloning v0-associate-journey-customer-support..."\n    git clone $REPO_URL\nelse\n    echo "Repository already exists."\nfi\n
